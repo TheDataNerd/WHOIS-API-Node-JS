@@ -1,0 +1,28 @@
+{
+  "name": "whoisapi",
+  "version": "0.0.1",
+  "description": "Node.js wrapper for whoisapi.eu api.",
+  "main": "src/whois.js",
+  "scripts": {
+    "test": "node example/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whoisapi/WHOIS-API-Node-JS.js"
+  },
+  "keywords": [
+    "Domain whois",
+    "IP whois",
+    "screenshot"
+  ],
+  "author": "Dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whoisapi/WHOIS-API-Node-JS/issues"
+  },
+  "homepage": "https://whoisapi.eu/",
+  "dependencies": {
+    "request": "^2.81.0",
+    "uuid": "^3.1.0"
+  }
+}
